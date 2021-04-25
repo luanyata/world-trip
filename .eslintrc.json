@@ -45,6 +45,7 @@
     "react/jsx-one-expression-per-line": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "react-in-jsx-scope":"off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -55,12 +56,8 @@
     ],
     "import/no-duplicates": "off",
     "import/prefer-default-export": "off",
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        "allowExpressions": true
-      }
-    ],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
