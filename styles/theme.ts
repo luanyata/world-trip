@@ -2,18 +2,18 @@ import { extendTheme } from '@chakra-ui/react';
 
 const darkTheme = {
   'p, h1': {
-    color: '#f5f8fa',
+    color: '#47585b',
   },
 };
 
 const lightTheme = {
   'p, h1': {
-    color: '#47585b',
+    color: '#f5f8fa',
   },
 };
 
 export const theme = extendTheme({
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
   useSystemColorMode: false,
   fonts: {
     heading: 'Poppins',
